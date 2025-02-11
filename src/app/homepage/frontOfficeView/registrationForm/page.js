@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 import { generatePDFTemplate } from "@/components/pdfTemplate/page";
 import './styles.css';
-import { FaPencilAlt } from "react-icons/fa";
+// import { FaPencilAlt } from "react-icons/fa";
 import { GiCancel } from "react-icons/gi";
 import SignaturePad from 'signature_pad';
 import TermsConditionsForm from "@/components/terms&conditions/page";
@@ -469,7 +469,7 @@ export default function Page() {
     const [vatNo, setVatNo] = useState(""); // Novo estado para VAT No.
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalField, setModalField] = useState(null); // Para identificar o campo em edição
-
+    console.log(setModalField);
     const [initialEmail, setInitialEmail] = useState("");
     const [initialVatNo, setInitialVatNo] = useState("");
 

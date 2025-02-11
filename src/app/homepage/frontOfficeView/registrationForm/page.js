@@ -1044,7 +1044,7 @@ export default function Page() {
                                 <div className='flex flex-row mt-2 gap-8 details-on-screen'>
                                     <div className='w-1/2 flex flex-col details-on-screen-card'>
                                         <p className='text-xs font-semibold text-textPrimaryColor'>{t.frontOffice.registrationForm.acceptTerms}:</p>
-                                        <div className='flex flex-row justify-between text-sm text-textPrimaryColor'>
+                                        <div className='flex flex-row justify-between text-sm text-textPrimaryColor terms-button'>
                                             <label className="flex items-center">
                                                 <input
                                                     type="radio"
@@ -1075,7 +1075,7 @@ export default function Page() {
 
                                     <div className='w-1/2 flex flex-col details-on-screen-card'>
                                         <p className='text-xs font-semibold text-textPrimaryColor'>{t.frontOffice.registrationForm.acceptHotelDataProtection}:</p>
-                                        <div className='flex flex-row justify-between text-sm text-textPrimaryColor privacy-button'>
+                                        <div className='flex flex-row justify-between text-sm text-textPrimaryColor privacy-button terms-button'>
                                             <label className="flex items-center">
                                                 <input
                                                     type="radio"

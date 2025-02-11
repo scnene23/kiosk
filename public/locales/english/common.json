@@ -1,0 +1,360 @@
+{
+    "auth": {
+        "instruction1": "To access Extensions myPMS, enter your Email and Password.",
+        "instruction2": "Forgot your Email or Password?",
+        "instruction3": "I am already a customer but do not have access. How can I join Extensions myPMS?",
+        "email": "E-mail",
+        "password": "Password",
+        "login": "Login",
+        "footer": {
+            "callCost": "Cost of a call to the national fixed-line network.",
+            "personalizedService": "Personalized service",
+            "activeDays": "Business days, from 9:30 AM to 6:30 PM."
+        }
+    },
+    "navbar": {
+        "alert": {
+            "messagePart1": "You will logout automatically in ",
+            "messagePart2": "seconds!",
+            "continue": "Continue",
+            "logout": "Logout"
+        },
+        "errors": {
+            "unknownUser": "Unknown user",
+            "unknownEmail": "Unknown e-mail"
+        },
+        "text": {
+            "selectHotel": "Select a Hotel",
+            "selectHotelInfo": "Please select a hotel to access the menus.",
+            "statements": "Statements",
+            "dashboard": "Dashboard",
+            "pendings": "Pendings",
+            "viewed": "Viewed",
+            "frontOffice": "Front Office",
+            "departures": "Departures",
+            "arrivals": "Arrivals",
+            "inHouses": "InHouses",
+            "viewMode": "View Mode",
+            "language": "Language",
+            "logout": "Logout",
+            "select": "Select"
+        }
+    },
+    "homepage": {
+        "title": "Homepage",
+        "cardPending": "Pending",
+        "cardViewed": "Viewed"
+    },
+    "statements": {
+        "dashboard": {
+            "title": "Dashboard",
+            "cardPending": "Pending",
+            "cardViewed": "Viewed"
+        },
+        "pending": {
+            "title": "Pendings",
+            "defaultHotelName": "Hotel Name",
+            "reservationNumber": "Reservation Number",
+            "checkIn": "Check-In",
+            "checkOut": "Check-Out",
+            "viewStatement": "View Statement",
+            "noStatement": "No pending statements."
+        },
+        "view": {
+            "title": "Viewed",
+            "defaultHotelName": "Hotel Name",
+            "reservationNumber": "Reservation Number",
+            "checkIn": "Check-In",
+            "checkOut": "Check-Out",
+            "checkedStatement": "Checked Statement",
+            "noStatement": "No statements seen."
+        }
+    },
+    "frontOffice": {
+        "dashboard": {
+            "title": "Front Office",
+            "cardArrivals": "Arrivals",
+            "cardInHouses": "InHouses",
+            "cardDepartures": "Departures"
+        },
+        "departures": {
+            "today": "Today",
+            "tomorrow": "Tomorrow",
+            "departureList": "Departure",
+            "room": "Room",
+            "lastName": "Last Name",
+            "firstName": "First Name",
+            "travelAgency": "Travel Agency",
+            "company": "Company",
+            "group": "Group",
+            "notes": "Notes",
+            "resNo": "Res. No.",
+            "departure": "Departure",
+            "info": "Info",
+            "statement": "Statement",
+            "noReservations": "No reservations found.",
+            "attention": "Attention"
+        },
+        "arrivals": {
+            "today": "Today",
+            "tomorrow": "Tomorrow",
+            "arrivalList": "Arrival List",
+            "room": "Room",
+            "roomStatus": "Room Status",
+            "lastName": "Last Name",
+            "firstName": "First Name",
+            "travelAgency": "Travel Agency",
+            "company": "Company",
+            "group": "Group",
+            "notes": "Notes",
+            "resNo": "Res. No.",
+            "arrival": "Arrival",
+            "info": "Info",
+            "registrationForm": "Registration Form",
+            "noReservations": "No reservations found.",
+            "attention": "Attention"
+        },
+        "inHouses": {
+            "title": "In Houses",
+            "arrival": "Arrival",
+            "departure": "Departure",
+            "lastName": "Last Name",
+            "firstName": "First Name",
+            "company": "Company",
+            "notes": "Notes",
+            "resNo": "Res. No.",
+            "info": "Info",
+            "statement": "Statement",
+            "room": "Room",
+            "noReservations": "No reservations found."
+        },
+        "registrationForm": {
+            "title": "Registration Form",
+            "stayDetails": "Stay Details",
+            "resNo": "Res. No.",
+            "room": "Room",
+            "roomType": "Room Type",
+            "adults": "Adults",
+            "childs": "Childs",
+            "arrival": "Arrival",
+            "nights": "Nights",
+            "departure": "Departure",
+            "priceInfo": "Price Info",
+            "rateCode": "Rate Code",
+            "cityTax": "City Tax",
+            "priceNight": "Price/Night",
+            "total": "Total",
+            "guestDetails": "Guest Details",
+            "salutation": "Salutation",
+            "lastName": "Last Name",
+            "firstName": "First Name",
+            "address": "Address",
+            "country": "Country",
+            "streetAddress": "Street Address",
+            "zipPostalCode": "ZIP / Postal Code",
+            "city": "City",
+            "stateProvinceRegion": "State / Province / Region",
+            "personalId": "Personal ID",
+            "dateOfBirth": "Date of Birth",
+            "countryOfBirth": "Country of Birth",
+            "nationality": "Nationality",
+            "idDoc": "ID Doc",
+            "idDocNumber": "Nr.",
+            "expDate": "Exp. Date",
+            "issue": "Issue",
+            "contacts": "Contacts",
+            "personalEmail": "Personal E-mail",
+            "phoneNumber": "Phone Number",
+            "invoiceData": "Invoice Data",
+            "vatNr": "VAT Nr.",
+            "signature": "Signature",
+            "acceptTerms": "I accept the Hotel Terms and Conditions",
+            "agree": "Agree",
+            "disagree": "Disagree",
+            "readMore": "Read More",
+            "termsModalHeader": "Hotel Terms and Conditions",
+            "acceptHotelDataProtection": "I accept the Hotel Data Protection Policy",
+            "dataModalHeader": "Hotel Data Protection Policy",
+            "cancel": "Cancel",
+            "insertPin": "Insert PIN",
+            "attention": "Attention"
+        }
+    },
+    "jsonView": {
+        "room": "Room",
+        "reservationNumber": "Reservation Number",
+        "checkIn": "Check-In",
+        "checkOut": "Check-Out",
+        "noReservationDetails": "No reservation details available.",
+        "nif": "NIF",
+        "noGuestInformation": "No guest information available.",
+        "date": "Date",
+        "description": "Description",
+        "quantity": "QTY",
+        "unitPrice": "Unit Price",
+        "total": "Total",
+        "noItems": "No items found.",
+        "totalBalance": "TOTAL BALANCE",
+        "noTotalBalance": "No total balance available.",
+        "vat": "VAT",
+        "gross": "Gross",
+        "net": "Net",
+        "tax": "Tax",
+        "noTax": "No tax available.",
+        "noHotelInformation": "No hotel information available.",
+        "cancel": "Cancel",
+        "insertPin": "Insert PIN",
+        "noData": "No data available."
+    },
+    "allProperties": {
+        "title": "All Properties",
+        "createPropertyHeader": "Create Property",
+        "table": {
+            "search": "Search by ID, Property Name, or Property Tag",
+            "propertyTag": "Property Tag",
+            "propertyName": "Property Name",
+            "info": "Info"
+        }
+    },
+    "allProfiles": {
+        "title": "All Profiles",
+        "modalHeader": "User Info",
+        "createUserHeader": "Create User",
+        "table": {
+            "search": "Search by ID, First Name, or Last Name",
+            "name": "Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "info": "Info"
+        }
+    },
+    "modals": {
+        "user": {
+            "allProfiles": {
+                "tabs": {
+                    "idInfo": "ID Info",
+                    "properties": "Properties"
+                },
+                "name": "Name:",
+                "surname": "Surname:",
+                "email": "Email:",
+                "expirationDate": "Expiration Date:",
+                "changePassword": "Change Password",
+                "modalHeaderPin": "Change Pin",
+                "oldPassword": "Old Password:",
+                "newPassword": "New Password:",
+                "confirmNewPassword": "Confirm New Password",
+                "cancel": "Cancel",
+                "updatePassword": "Update Password",
+                "modalHeaderProp": "Add user to property",
+                "noResults": "No properties found."
+            },
+            "userProperties": {
+                "noResults": "No properties found.",
+                "close": "Close"
+            }
+        },
+        "changePin": {
+            "oldPin": "Old PIN:",
+            "newPin": "New PIN:",
+            "confirmNewPin": "Confirm New PIN:"
+        },
+        "createUser": {
+            "name": "Name:",
+            "surname": "Surname:",
+            "email": "Email:",
+            "password": "Password:",
+            "pin": "PIN::",
+            "expirationDate": "Expiration Date:",
+            "submit": "Submit"
+        },
+        "createProperty": {
+            "propertyDetails": "Property Details",
+            "propertyName": "Property Name",
+            "propertyTag": "Property Tag",
+            "mpeHotel": "MPE Hotel",
+            "propertyServer": "Property Server",
+            "propertyPort": "Property Port",
+            "iniPath": "Ini Path:",
+            "pdfFile": "PDF File Path:",
+            "hotelDetails": "Hotel Details",
+            "hotelName": "Hotel Name:",
+            "hotelEmail": "Hotel Email:",
+            "hotelPhone": "Hotel Phone:",
+            "hotelAddress": "Hotel Address:",
+            "hotelPCode": "Hotel Postal-Code:",
+            "hotelRNET": "Hotel RNET:",
+            "hotelNIF": "Hotel NIF:",
+            "hotelTerms": "Hotel Terms:",
+            "hotelImage": "Hotel Image:",
+            "selected": "Selected:",
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "save": "Save",
+            "saving": "Saving..."
+
+        },
+        "propertiesEdit": {
+            "propertyDetails": "Property Details",
+            "hotelDetails": "Hotel Details",
+            "editProperty": "Edit Property",
+            "viewProperty": "View Property",
+            "settings": "Settings",
+            "propertyName": "Property Name:",
+            "propertyTag": "Property Tag:",
+            "mpeHotel": "MPE Hotel:",
+            "propertyServer": "Property Server:",
+            "propertyPort": "Property Port:",
+            "iniPath": "Ini Path:",
+            "pdfFile": "PDF File Path:",
+            "details": "Details",
+            "hotelName": "Hotel Name:",
+            "hotelEmail": "Hotel Email:",
+            "hotelPhone": "Hotel Phone:",
+            "hotelAddress": "Hotel Address:",
+            "hotelPCode": "Hotel Postal-Code:",
+            "hotelRNET": "Hotel RNET:",
+            "hotelNIF": "Hotel NIF:",
+            "hotelTerms": "Hotel Terms:",
+            "hotelImage": "Hotel Image:",
+            "selected": "Selected:",
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "save": "Save",
+            "saving": "Saving..."
+        }
+    },
+    "pagination": {
+        "itemsPerPage": "Items per page"
+    },
+    "errors": {
+        "loading": "Loading",
+        "unknownUser": "Unknown user",
+        "unknownEmail": "Unknown e-mail"
+    },
+    "registrationForm": {
+        "stayDetails": "Stay Details",
+        "terms": "I accept the Hotel Data Protection Policy",
+        "signature": "Signature",
+        "callInfo": "(call cost to national landline network)",
+        "name": "Name:",
+        "address": "Address:",
+        "country": "Country:",
+        "idTypeDoc": "ID Type Doc:",
+        "email": "Email:",
+        "docNo": "Doc No.:",
+        "phone": "Phone:",
+        "expDate": "Exp. Date:",
+        "birthDate": "Birth Date:",
+        "countryIssue": "Country Issue:",
+        "birthPlace": "Birthplace:",
+        "vatNo": "VAT No.:",
+        "reservationNo": "Reservation No.:",
+        "room": "Room:",
+        "arrivalDate": "Arrival Date:",
+        "departureDate": "Departure Date:",
+        "paxNo": "No.Pax/Ch.:",
+        "rateCode": "Rate Code:",
+        "notes": "Notes:"
+    }
+}

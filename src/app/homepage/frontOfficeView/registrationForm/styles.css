@@ -1,0 +1,68 @@
+.flag {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .flag.inactive {
+    opacity: 0.4;
+  }
+  
+  .flag.active {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .language-combobox{
+    display: none;
+  }
+/* Responsividade para dispositivos móveis */
+@media (max-width: 800px) {
+    .language-combobox{
+        display: block;
+      }
+      .language-row{
+        display: none;
+      }
+    .main-page {
+        padding: 0 10px;
+    }
+    .flag-position {
+        padding-left: 0;
+        font-size: 12px;
+    }
+    .screen-division {
+        flex-direction: column; /* Empilha os elementos em dispositivos móveis */
+    }
+    .details-on-screen{
+        flex-direction: column;
+    }
+    .details-on-screen-card{
+        width: 100%;
+    }
+    .half-screen {
+        width: 100%; /* Ocupa largura total em dispositivos menores */
+        margin: 8px 0; /* Margem reduzida no eixo vertical */
+    }
+    
+    /* Ajustes para os inputs */
+    .input-field {
+        width: 100%; /* Faz com que todos os inputs ocupem 100% da largura */
+        margin-bottom: 10px; /* Espaçamento entre os inputs */
+    }
+    .text-style{
+        margin-bottom: 4rem;
+    }
+    .buttons-style{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .privacy-button{
+      gap: 1rem;
+      font-size: 9px;
+    }
+
+}

@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  body {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+  table {
+      font-size: 12px;
+  }
+  td, th {
+      white-space: nowrap; /* Não permite quebras de linha */
+      overflow: hidden;    /* Oculta o texto que não cabe */
+      text-overflow: ellipsis; /* Adiciona "..." no final do texto cortado */
+      padding: 4px 8px; /* Reduz o espaçamento para células em telas menores */
+  }
+  .header-container h2{
+    font-size: 13px;
+  }
+  .pagination-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10; /* Paginação sobre outros elementos */
+  }
+}

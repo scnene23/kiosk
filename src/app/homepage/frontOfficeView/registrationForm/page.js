@@ -38,6 +38,7 @@ export default function Page() {
     const [isLoading, setIsLoading] = useState(false);
     const [propertyID, setPropertyID] = useState(null);
     const [profileID, setProfileID] = useState(null);
+    console.log(profileID);
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState('');
 
@@ -349,28 +350,6 @@ export default function Page() {
 
         setErrorMessage('');
         setIsErrorModalOpen(false);
-
-        let emailToSend = email !== initialEmail ? email : initialEmail; // Envia undefined se não houver alteração
-        let vatNoToSend = vatNo !== initialVatNo ? vatNo : initialVatNo; // Envia undefined se não houver alteração
-
-        // Se houver alterações (ou valores a serem enviados), envia para a API
-        if (emailToSend || vatNoToSend) {
-            try {
-                const response = await axios.post(`/api/reservations/checkins/registrationForm/valuesEdited`, {
-                    email: emailToSend,
-                    vatNo: vatNoToSend,
-                    registerID: profileID,
-                    propertyID: propertyID
-                });
-                console.log('Alterações salvas com sucesso:', response.data);
-            } catch (error) {
-                console.error('Erro ao salvar alterações:', error);
-                errors.push("There was an issue saving your changes. Please contact support.");
-                setErrorMessage(errors.join("\n"));
-                setIsErrorModalOpen(true);
-                return;
-            }
-        }
 
         // Captura a assinatura e gera o PDF
         try {

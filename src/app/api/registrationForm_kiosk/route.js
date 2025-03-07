@@ -66,7 +66,7 @@ export async function POST(req) {
     const token = generateAccessToken({ propertyID, requestID, resNo, profileID });
 
     // Criar a URL com o token
-    const redirectUrl = `https://extensions.mypms.pt/homepage/frontOfficeView/registrationForm?propertyID=${propertyID}&requestID=${requestID}&resNo=${resNo}&profileID=${profileID}&token=${token}`;
+    const redirectUrl = `https://kiosk.mypms.pt/homepage/frontOfficeView/registrationForm?propertyID=${propertyID}&requestID=${requestID}&resNo=${resNo}&profileID=${profileID}&token=${token}`;
 
     // Salvar o token no cookie para manter a sessão
     const response = NextResponse.json({ redirectUrl });

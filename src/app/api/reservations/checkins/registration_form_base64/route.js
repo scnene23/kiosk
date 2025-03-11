@@ -6,7 +6,7 @@ export async function POST(request) {
   try {
     // Parse do corpo da requisição
     const body = await request.json();
-    const { PropertyID, pdfBase64, fileName, ResNo, ProfileID } = body;
+    const { PropertyID, pdfBase64, fileName, ResNo, ProfileID, ProtectionPolicy, TermsAccepted } = body;
 
     // Validação dos campos obrigatórios
     if (!PropertyID || !pdfBase64 || !fileName || !ResNo || !ProfileID) {
@@ -57,11 +57,15 @@ export async function POST(request) {
       // Envia a requisição POST com o corpo contendo apenas o pdfBase64
       const uploadResponse = await axios.post(uploadUrl, pdfBase64, { headers });
 
+      // **Definir aceitação com base nos termos**
+      const accepted = !!ProtectionPolicy && !!TermsAccepted;
+      console.log("Aceitação dos termos:", accepted);
+
       // Construindo a resposta para o segundo endpoint
       const acceptanceResponse = {
         bookingNumber: ResNo,
         externalProfileId: ProfileID,
-        accepted: true,
+        accepted: accepted,
       };
 
       // Headers para o segundo endpoint
@@ -73,8 +77,13 @@ export async function POST(request) {
       const requestUrl = "https://apiopo.ykioskhotel.com/api/v1/sefdocument/SetExternalAcceptance";
       await axios.post(requestUrl, acceptanceResponse, { headers: responseHeaders });
 
+      // Mensagem dinâmica baseada na aceitação dos termos
+      const message = accepted
+        ? "PDF enviado e termos aceitos com sucesso."
+        : "PDF enviado, mas os termos não foram aceitos.";
+
       return new NextResponse(
-        JSON.stringify({ message: "PDF enviado e aceitação registrada com sucesso", response: uploadResponse.data }),
+        JSON.stringify({ message, accepted }),
         { status: 200, headers: { "Content-Type": "application/json; charset=utf-8" } }
       );
     } catch (uploadError) {

@@ -381,6 +381,7 @@ export default function Page() {
                 VatNo: contacts.VatNo,
                 PersonalEmail: contacts.Email,
                 ProtectionPolicy: policyAccepted,
+                TermsAccepted: termsAccepted,
                 HotelName: hotelName,
                 HotelTermsEN: hotelTerms,
                 HotelPhone: hotelPhone,
@@ -412,6 +413,8 @@ export default function Page() {
                     fileName: `RegistrationForm_ResNo_${reserva.ResNo}_TC_${termsAccepted ? 0 : 1}_DPP_${policyAccepted ? 0 : 1}_ProfileID_${guestInfo.ProfileID}.pdf`,
                     ResNo: reserva.ResNo,
                     ProfileID: guestInfo.ProfileID,
+                    ProtectionPolicy: policyAccepted,
+                    TermsAccepted: termsAccepted 
                 }
             );
 

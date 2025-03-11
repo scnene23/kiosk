@@ -56,7 +56,7 @@ export async function POST(request) {
     try {
       // Envia a requisição POST com o corpo contendo apenas o pdfBase64
       const uploadResponse = await axios.post(uploadUrl, pdfBase64, { headers });
-
+      console.log(uploadResponse.data);
       // **Definir aceitação com base nos termos**
       const accepted = !!ProtectionPolicy && !!TermsAccepted;
       console.log("Aceitação dos termos:", accepted);

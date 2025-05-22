@@ -41,7 +41,12 @@ const ProtectionPolicyForm = ({
                                     </ModalHeader>
                                     <ModalBody className="flex flex-col mx-5 my-5 space-y-8 max-h-96 overflow-y-auto bg-background text-textPrimaryColor">
                                         <p>
-                                            
+                                            The Data is collected in compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679.
+                                            In order for you to continue receiving our communications/information, we must obtain your authorization for the processing of your personal data.
+                                            We guarantee that all your data will be stored and processed with the protection and security measures in accordance with the provisions of the new regulation.
+                                            The Data is collected in compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679.
+                                            In order for you to continue receiving our communications/information, we must obtain your authorization for the processing of your personal data.
+                                            We guarantee that all your data will be stored and processed with the protection and security measures in accordance with the provisions of the new regulation.
                                         </p>
                                     </ModalBody>
                                 </form>

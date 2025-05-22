@@ -41,12 +41,9 @@ const TermsConditionsForm = ({
                                     </ModalHeader>
                                     <ModalBody className="flex flex-col mx-5 my-5 space-y-8 max-h-96 overflow-y-auto bg-background text-textPrimaryColor">
                                         <p>
-                                            The Data is collected in compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679.
-                                            In order for you to continue receiving our communications/information, we must obtain your authorization for the processing of your personal data.
-                                            We guarantee that all your data will be stored and processed with the protection and security measures in accordance with the provisions of the new regulation.
-                                            The Data is collected in compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679.
-                                            In order for you to continue receiving our communications/information, we must obtain your authorization for the processing of your personal data.
-                                            We guarantee that all your data will be stored and processed with the protection and security measures in accordance with the provisions of the new regulation.
+                                            We inform you that all our rooms are Non-Smoking, therefore, according to Decree-Law 37/2007, in the event of non-compliance a fine of between €50 and €500 will be charged. We also inform you that if the limit of people per room is exceeded, the hotel reserves the right to charge a penalty of €100 per additional person.
+
+                                            In the event of damage, theft or loss of items belonging to the Hotel, the Oporto Airport & Business Hotel reserves the right to charge the full amount of the damaged/stolen/lost items.
                                         </p>
                                     </ModalBody>
                                 </form>
